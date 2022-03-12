@@ -19,8 +19,8 @@
 
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css" />
     </head>
-    <body class="w-screen min-h-screen overflow-x-hidden py-10 bg-gray-50 text-gray-900 leading-normal font-sans antialiased">
-        <div class="max-w-6xl mx-auto md:mx-6 lg:mx-auto md:grid grid-cols-3 gap-6">
+    <body class="w-screen print:w-auto min-h-screen overflow-x-hidden py-10 bg-gray-50 text-gray-900 leading-normal font-sans antialiased">
+        <div class="max-w-6xl print:max-w-auto mx-auto md:mx-6 lg:mx-auto print:block md:grid grid-cols-3 gap-6">
             <aside class="flex flex-col items-center md:block md:col-span-1 mb-12">
                 <div class="flex flex-col justify-center items-center">
                     <img
@@ -30,42 +30,40 @@
                     />
                     <h1 class="mt-2 text-2xl text-gray-800 font-bold">Bogdan Kondratov</h1>
                     <p class="mt-0 text-lg text-gray-600">Fullstack Developer</p>
-                    <p class="mt-2 text-sm text-gray-600">"If it's worth doing - it is worth putting effort to."</p>
+                    <p class="mt-2 text-sm text-gray-600 text-center">"If it's worth doing - it is worth putting effort to."</p>
 
                 </div>
 
                 <div class="mx-4 my-4">
-                    <div class="my-5 text-lg text-gray-600 flex">
+                    <div class="my-5 text-xl md:text-sm lg:text-lg text-gray-600 flex items-center">
                         <i class="mr-2 bx bx-mail-send bx-sm text-gray-600"></i>
                         <a
                             class="hover:underline"
                             href="mailto:kondratovbr@gmail.com"
-                        >
-                            kondratovbr@gmail.com
-                        </a>
+                        >kondratovbr@gmail.com</a>
                     </div>
-                    <div class="my-5 text-lg text-gray-600 flex">
+                    <div class="my-5 text-xl md:text-sm lg:text-lg text-gray-600 flex items-center">
                         <i class="mr-2 bx bx-map bx-sm text-gray-600"></i>
                         Yaroslavl, Russia
                     </div>
-                    <div class="my-5 flex">
+                    <div class="my-5 flex items-center">
                         <i class="mr-2 bx bxl-linkedin bx-sm text-gray-600"></i>
                         <a
-                            class="text-blue-600 hover:text-blue-700 hover:underline text-lg"
+                            class="text-blue-600 hover:text-blue-700 hover:underline text-xl md:text-sm lg:text-lg"
                             href="https://www.linkedin.com/in/kondratovbr"
                         >LinkedIn</a>
                     </div>
-                    <div class="my-5 flex">
+                    <div class="my-5 flex items-center">
                         <i class="mr-2 bx bxl-telegram bx-sm text-gray-600"></i>
                         <a
-                            class="text-blue-600 hover:text-blue-700 hover:underline text-lg"
+                            class="text-blue-600 hover:text-blue-700 hover:underline text-xl md:text-sm lg:text-lg"
                             href="https://t.me/kondratovbr"
                             target="_blank"
                         >@kondratovbr</a>
                     </div>
                 </div>
 
-                <div class="w-32 md:w-auto mx-4">
+                <div class="w-32 md:w-auto mx-4 print:hidden">
                     <a
                         href="mailto:kondratovbr@gmail.com"
                         class="max-w-sm py-2 px-4 inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base font-bold"
@@ -74,7 +72,7 @@
 
             </aside>
 
-            <main class="col-span-2 space-y-12 mx-4 md:mx-0">
+            <main class="col-span-2 space-y-12 mx-6 md:mx-0">
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Profile</h2>
@@ -295,7 +293,7 @@
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Good Skills</h2>
-                    <ul class="skills-list flex flex-wrap">
+                    <ul class="skills-list flex flex-wrap max-w-prose">
                         <li class="skill">PHP</li>
                         <li class="skill">JavaScript</li>
                         <li class="skill">MySQL/MariaDB</li>
@@ -319,7 +317,7 @@
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Moderate Skills</h2>
-                    <ul class="skills-list flex flex-wrap">
+                    <ul class="skills-list flex flex-wrap max-w-prose">
                         <li class="skill">Python</li>
                         <li class="skill">Django</li>
                         <li class="skill">Bootstrap</li>
@@ -332,7 +330,7 @@
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Would Like to Learn</h2>
-                    <ul class="skills-list flex flex-wrap">
+                    <ul class="skills-list flex flex-wrap max-w-prose">
                         <li class="skill">Go</li>
                         <li class="skill">Rust</li>
                         <li class="skill">Solidity</li>
@@ -341,7 +339,7 @@
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Unrelated Skills</h2>
-                    <ul class="skills-list flex flex-wrap items-center">
+                    <ul class="skills-list flex flex-wrap max-w-prose">
                         <li class="skill">Espresso</li>
                         <li class="skill">Cappuccino</li>
                         <li class="skill">Sarcastic Jokes</li>
