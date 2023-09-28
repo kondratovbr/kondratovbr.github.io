@@ -8,7 +8,7 @@
 
         <link rel="shortcut icon" href="favicon.ico" />
 
-        <title>Bogdan Kondratov | Senior Fullstack Developer</title>
+        <title>Bogdan Kondratov | Senior Software Engineer</title>
 
         <link rel="stylesheet" href="/public/css/main.css" />
 
@@ -25,11 +25,11 @@
                 <div class="flex flex-col justify-center items-center">
                     <img
                         class="h-32 w-32 rounded-full mx-auto"
-                        src="https://github.com/kondratovbr.png"
+                        src="/assets/avatar.jpg"
                         alt="Avatar photo of Bogdan Kondratov"
                     />
                     <h1 class="mt-2 text-2xl text-gray-800 font-bold">Bogdan Kondratov</h1>
-                    <p class="mt-0 text-lg text-gray-600">Senior Fullstack Developer</p>
+                    <p class="mt-0 text-lg text-gray-600">Senior Software Engineer</p>
                     <p class="mt-2 text-sm text-gray-600 text-center">
                         "If it's worth doing - it is worth putting effort to."
                     </p>
@@ -63,6 +63,14 @@
                             target="_blank"
                         >@kondratovbr</a>
                     </div>
+                    <div class="my-5 flex items-center">
+                        <i class="mr-2 bx bxl-github bx-sm text-gray-600"></i>
+                        <a
+                            class="text-blue-600 hover:text-blue-700 hover:underline text-xl md:text-sm lg:text-lg"
+                            href="https://github.com/kondratovbr"
+                            target="_blank"
+                        >@kondratovbr</a>
+                    </div>
                 </div>
 
                 <div class="w-32 md:w-auto mx-4 print:hidden">
@@ -80,7 +88,7 @@
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Profile</h2>
                     <div class="max-w-prose text-lg space-y-2">
                         <p>
-                            Semi-self-taught 6+ years backend/fullstack PHP developer with fluent English and a wide range of related (and not so) skills and experience,
+                            Semi-self-taught 7+ years backend/fullstack PHP developer with fluent English and a wide range of related (and not so) skills and experience,
                             like team leadership, Linux administration, DevOps and some UI/UX knowledge.
                         </p>
                         <p>
@@ -93,41 +101,82 @@
                             I used to be a competitive programming geek in my high school and uni years, and I’m especially fond of data structures.
                         </p>
                         <p>
-                            Open for Backend/Full-stack Lead Engineer/Team Lead full-time positions.
+                            Open for Backend/Full-stack Senior-to-Lead Engineer full-time remote-only positions.
                         </p>
                     </div>
                 </section>
 
                 <section>
                     <h2 class="mb-4 text-4xl text-gray-700 font-bold">Experience</h2>
-                    <ul class="space-y-6">
+                    <ul class="space-y-16">
+
                         <li>
-                            <h3 class="text-2xl font-medium text-gray-800">Fullstack Senior Developer</h3>
+                            <h3 class="text-2xl font-medium text-gray-800">Senior Software Engineer II</h3>
                             <div class="mt-1">
                                 <div>
                                     <i class="bx bx-buildings text-gray-500"></i>
                                     <a
                                         class="text-base text-gray-800 hover:text-gray-600 active:text-gray-500 hover:underline"
-                                        href="https://monta.app"
+                                        href="https://monta.com"
                                         target="_blank"
                                     >Monta</a>
+                                </div>
+                                <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Copenhagen, Denmark</small>
                                 </div>
                                 <div>
                                     <i class="bx bx-calendar text-sm text-gray-500"></i>
                                     <small class="text-sm text-gray-600">May 2022 - Present</small>
                                 </div>
                             </div>
-                            <div class="mt-2 space-y-2 max-w-prose">
-                                <p>
-                                    I am currently working as a Senior Software Engineer for Monta, Copenhagen -
-                                    leading European startup in EV charging industry developing the core server application.
-                                    I'm involved in development of all Monta's user-facing products - mobile apps,
-                                    B2B portal, website and public APIs, as well as backend services and internal tools.
-                                </p>
-                                <p>
-                                    I'm also promoting and establishing modern development practices within the team,
-                                    such as modern CI/CD, effective tech management and code quality standards.
-                                </p>
+                            <div class="mt-2 space-y-6 max-w-prose">
+                                <div class="space-y-2">
+                                    <p>
+                                        I am currently working as a Senior Software Engineer II for Monta -
+                                        the leading European startup in EV charging industry developing the core server application.
+                                        I'm involved in development of all Monta's user-facing products - mobile apps,
+                                        B2B portal, website and public APIs, as well as backend services and internal tools.
+                                    </p>
+                                    <p>
+                                        I'm also promoting and establishing modern development practices within the team,
+                                        such as modern CI/CD, testing practices and code quality standards.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-medium text-gray-800">Notable projects completed as a team lead in Core squad</h4>
+                                    <ul class="list-disc mt-2">
+                                        <li>Migration of the financial logic from PHP monolith into a number of Kotlin services</li>
+                                        <li>Migration of the charge point scheduling logic from PHP monolith into a Kotlin service</li>
+                                        <li>Refactoring of the VAT logic allowing to handle EU-wide VAT</li>
+                                        <li>Integrating Adyen and Stripe payment providers for B2C and B2B clients</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-medium text-gray-800">Notable projects completed as a single developer</h4>
+                                    <ul class="list-disc mt-2">
+                                        <li>Implementing a bulk import framework allowing quick onboarding for major B2B clients</li>
+                                        <li>Upgrading the PHP codebase from the original PHP 6 to PHP 8.2 and establishing modern PHP coding practices</li>
+                                        <li>Upgrading Laravel framework from the original v7 to v10.x</li>
+                                        <li>Creating and maintaining a unified Docker Compose local development environment comprising over 30 different services used now by the entire engineering team</li>
+                                        <li>Implementing end-to-end error handling framework allowing the mobile app to display relevant and localized feedback to the users</li>
+                                        <li>Migrating the PHP project from FPM to Octane+OpenSwoole for a major performance gain and high performing in-memory caching</li>
+                                        <li>Implementing and maintaining a CI/CD pipeline for the PHP project allowing quick and efficient release cycle and increasing deployment confidence</li>
+                                        <li>Implementing support for feature-rich payment terminals connected to charge points</li>
+                                        <li>Integrating localization pipeline managed by Lokalise into the PHP project as part of the CI/CD setup</li>
+                                        <li>Implementing white-label localization for B2B portal, emails, SMS, notifications and error messages</li>
+                                        <li>Refactoring webhook handling logic and migrating internal interaction to Kafka</li>
+                                        <li>Unifying timestamp/timezone handling logic across the API</li>
+                                        <li>Implementing backend for Live Notifications in mobile apps</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p>
+                                        I've played a major role in increasing development velocity in the project by
+                                        promoting CI/CD-based deployment cycle with multiple deployments per week and relying
+                                        on automated tests for regression testing and feature flags for release management.
+                                    </p>
+                                </div>
                                 <p>
                                     Tools: PHP, Laravel, Livewire, Kotlin, Micronaut,
                                     Javascript, HTML, CSS, Docker, Kubernetes, ArgoCD.
@@ -170,6 +219,10 @@
                                     <small class="text-base text-gray-800">S.P. Ryzhev V.N.</small>
                                 </div>
                                 <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Yaroslavl, Russia</small>
+                                </div>
+                                <div>
                                     <i class="bx bx-calendar text-sm text-gray-500"></i>
                                     <small class="text-sm text-gray-600">Aug 2019 - Apr 2022</small>
                                 </div>
@@ -200,13 +253,17 @@
                             </div>
                             <div class="mt-2 space-y-2 max-w-prose">
                                 <p>
-                                    I was working as a freelance fullstack developer specialising in PHP/Laravel and the surrounding ecosystem doing mostly fixes, changes and updates to existing projects.
+                                    I was working as a freelance fullstack developer specialising in PHP/Laravel
+                                    and the surrounding ecosystem doing mostly fixes, changes and updates to existing projects.
                                 </p>
                                 <p>
-                                    During that time there was also one very much unconventional crypto-related project I developed from an empty repo to a release version using Laravel, Bulma and some pieces of JS, and also set up deployment, databases, backups, monitoring and failovers. But you'll have to ask me for the details during an interview. I promise it is at least an interesting story to hear.
+                                    Among other projects during that time I developed a cryptocurrency exchange platform
+                                    from an empty repo to a release version using Laravel,
+                                    Bulma and JS, and also I set up deployment, databases, backups,
+                                    monitoring and failovers.
                                 </p>
                                 <p>
-                                    Tools: PHP, Laravel, Bulma, HTML, CSS, JavaScript, Tor.
+                                    Tools: PHP, Laravel, Bulma, HTML, CSS, JavaScript, Tor, bitcoind.
                                 </p>
                             </div>
                         </li>
@@ -219,16 +276,23 @@
                                     <small class="text-base text-gray-800">Polisher Ltd. - ShoeCare Services</small>
                                 </div>
                                 <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Moscow, Russia</small>
+                                </div>
+                                <div>
                                     <i class="bx bx-calendar text-sm text-gray-500"></i>
                                     <small class="text-sm text-gray-600">Nov 2017 - Feb 2020</small>
                                 </div>
                             </div>
                             <div class="mt-2 space-y-2 max-w-prose">
                                 <p>
-                                    Almost single-handedly created and ran a premium shoe care business with financial investments from a co-founder. At the peak we had 11 employees across two premium locations in the center of Moscow and the shoe care shop itself, and also ran a 24/7 delivery service.
+                                    Together with a co-founder created and ran a premium shoe care business.
+                                    At the peak we had 11 employees across two premium locations in the center of Moscow
+                                    and the shoe care shop itself, and also ran a 24/7 delivery service.
                                 </p>
                                 <p>
-                                    Also, I used Laravel and Bootstrap to quickly develop an internal task-management system tailored for that business after being fed up with existing solutions.
+                                    Also, I used Laravel and Bootstrap to quickly develop an internal task-management
+                                    system tailored for that business after being fed up with existing solutions.
                                 </p>
                                 <p>
                                     Tools: PHP, Laravel, Bootstrap, Sweat, Tears.
@@ -244,6 +308,10 @@
                                     <small class="text-base text-gray-800">
                                         Academy of Capital - Web-development Studio and Marketing Consulting
                                     </small>
+                                </div>
+                                <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Yaroslavl, Russia</small>
                                 </div>
                                 <div>
                                     <i class="bx bx-calendar text-sm text-gray-500"></i>
@@ -276,6 +344,10 @@
                                     <small class="text-base text-gray-800">
                                         Pixel Coffee - Coffeeshop Chain
                                     </small>
+                                </div>
+                                <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Yaroslavl, Russia</small>
                                 </div>
                                 <div>
                                     <i class="bx bx-calendar text-sm text-gray-500"></i>
@@ -314,6 +386,10 @@
                                     <small class="text-base text-gray-800">
                                         Mail.ru
                                     </small>
+                                </div>
+                                <div>
+                                    <i class="bx bx-globe text-sm text-gray-500"></i>
+                                    <small class="text-sm text-gray-600">Moscow, Russia</small>
                                 </div>
                                 <div>
                                     <i class="bx bx-calendar text-gray-500"></i>
@@ -356,6 +432,7 @@
                         <li class="skill">Ansible</li>
                         <li class="skill">Git</li>
                         <li class="skill">Nginx</li>
+                        <li class="skill">Kafka</li>
                     </ul>
                 </section>
 
